@@ -1,0 +1,12 @@
+{
+    "name": "Frontline",
+    "description": "Frontline Api SDK",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-0": {
+            "Frontline": "libs/"
+        }
+    }
+
+}
