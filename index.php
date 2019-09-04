@@ -1,8 +1,8 @@
 <?php
 require __DIR__ . '../vendor/autoload.php';
 
-$token = '';
+$token = "example_token";
 
-$fl = new Frontline\Frontline("6126adf03fc11a0830e92dd5a0226072");
+$fl = new Frontline\Frontline($token);
 
 var_dump($fl->get('/api/orders'));
