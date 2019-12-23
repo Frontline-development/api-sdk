@@ -6,8 +6,9 @@ use \Frontline\Utils;
 
 class Frontline extends Utils {
 
-	public function __construct($token) {
+	public function __construct($token, $secret) {
 		$this->token = $token;
+		$this->secret = $secret;
 		
 	}
 
