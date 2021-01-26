@@ -12,9 +12,11 @@
             "Frontline": "libs/"
         }
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Frontline-development/api-sdk" 
-   } 
+    "repositories": [
+    	{
+			"type": "git",
+			"url": "https://github.com/Frontline-development/api-sdk" 
+	   	}
+	]
 
 }
