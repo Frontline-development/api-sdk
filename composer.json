@@ -1,6 +1,5 @@
 {
     "name": "frontline-development/api-sdk",
-    "version": "1.0.0",
     "description": "Frontline Api SDK",
     "type": "library",
     "license": "Apache-2.0",
