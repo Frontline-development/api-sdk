@@ -21,7 +21,6 @@ var_dump($fl->get('/api/orders/{order_id}'));
 
 #### Update Order
 ```php
-
 $fl = new \Frontline:Client($token, $secret);
 
 $fields = array('field' => 'value');
