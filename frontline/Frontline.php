@@ -2,7 +2,7 @@
 
 namespace Frontline;
 
-use \Frontline\Utils;
+use Utils;
 
 class Frontline extends Utils {
 
