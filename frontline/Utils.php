@@ -2,7 +2,6 @@
 
 namespace Frontline;
 
-
 class Utils {
 
 	public static $url = "https://portal.carmmunity.co.uk";
