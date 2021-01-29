@@ -1,6 +1,9 @@
 {
     "name": "frontline-development/api-sdk",
     "description": "Frontline Api SDK",
+    "keywords": [
+        "carmmunity"
+    ],
     "type": "library",
     "license": "Apache-2.0",
     "require": {
