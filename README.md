@@ -1,6 +1,9 @@
 # api-sdk
 
-This repository contains Frontlines PHP SDK and samples for REST API.
+PHP REST client for the Frontline API.
+
+## Installation
+composer require frontline-development/api-sdk
 
 
 Example usage:
