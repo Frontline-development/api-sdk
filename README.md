@@ -3,8 +3,7 @@
 PHP REST client for the Frontline API.
 
 ## Installation
-composer require frontline-development/api-sdk
-
+```composer require frontline-development/api-sdk```
 
 Example usage:
 
