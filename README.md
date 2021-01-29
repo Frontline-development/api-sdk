@@ -8,7 +8,7 @@ Example usage:
 ```php
 $token = "example_token";
 $secret = "example_secret";
-$fl = new Frontline\Frontline($token, $secret);
+$fl = new Frontline($token, $secret);
 
 var_dump($fl->get('/api/orders'));
 ```
@@ -17,7 +17,7 @@ var_dump($fl->get('/api/orders'));
 ```php
 $token = "example_token";
 $secret = "example_secret";
-$fl = new Frontline\Frontline($token, $secret);
+$fl = new Frontline($token, $secret);
 
 var_dump($fl->get('/api/orders/{order_id}'));
 ```
@@ -26,7 +26,7 @@ var_dump($fl->get('/api/orders/{order_id}'));
 ```php
 $token = "example_token";
 $secret = "example_secret";
-$fl = new Frontline\Frontline($token, $secret);
+$fl = new Frontline($token, $secret);
 
 $fields = array('field' => 'value');
 var_dump($fl->update('/api/orders/{order_id}', $fields));
