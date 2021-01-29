@@ -4,7 +4,7 @@ namespace Frontline;
 
 class Utils {
 
-	public static $url = "https://portal.carmmunity.co.uk/";
+	public static $url = "https://portal.carmmunity.co.uk/api/";
 
 	public function request($url, $method, $payload=[]) {
 	
