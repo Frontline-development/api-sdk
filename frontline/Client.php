@@ -4,7 +4,7 @@ namespace Frontline;
 
 use Frontline\Utils;
 
-class Frontline extends Utils {
+class Client extends Utils {
 
 	public function __construct($token, $secret) {
 		$this->token = $token;
