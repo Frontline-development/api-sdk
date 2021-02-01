@@ -20,8 +20,13 @@ class Utils {
 
 		}
 
+		$extraParams = '';
+		if(strtolower($method) == 'get') {
+			$extraParams = "&{$payload}";
+		}
+
 		$curl = curl_init();
-		curl_setopt($curl, CURLOPT_URL,"{$url}?api_token={$this->token}&secret={$this->secret}");
+		curl_setopt($curl, CURLOPT_URL,"{$url}?api_token={$this->token}&secret={$this->secret}{$extraParams}");
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
 		curl_setopt($curl, CURLOPT_POSTFIELDS, $payload);
