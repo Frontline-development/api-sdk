@@ -21,7 +21,7 @@ class Utils {
 		}
 
 		$extraParams = '';
-		if(strtolower($method) == 'get') {
+		if(in_array(strtolower($method), ['get', 'patch'] )) {
 			$extraParams = "&{$payload}";
 		}
 
