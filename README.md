@@ -14,7 +14,7 @@ $fl = new \Frontline::Client($token, $secret);
 var_dump($fl->get('/api/orders'));
 ```
 
-passing params
+passing params:
 ```php
 $fl = new \Frontline::Client($token, $secret);
 
